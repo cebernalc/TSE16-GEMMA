@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="22"
+    density="xxxhdpi"
+    format="6"
+    timestamp="1458088736197255000" >
+
+    <task
+        name="javac"
+        duration="599" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="36" />
+    <task
+        name="verifier"
+        duration="5" />
+
+    <artifact
+        location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4_3756721750b0b1d85514083d6327070e6650d4e6/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3_bfb4e56f5e6d064e2b704484758bce110ec8ab3e/classes.dex"
+        type="DEX" />
+
+    <build timestamp="1458070656997409000" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/outputs/apk/tasks-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1458074098226868000"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9_3484254a3edb7054aca60c1b07ecda88b3f7ea48/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1458082037610001000"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2_99c356b79ffac493c500005326848c3a59624640/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1458088502954223000" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6_eb4e053a31b5b6077db31192de1a01d4ff1fa2ee/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8_0e701207206efac8b0ce787bd726c3ac96ad539b/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1458088736197255000" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4_3756721750b0b1d85514083d6327070e6650d4e6/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3_bfb4e56f5e6d064e2b704484758bce110ec8ab3e/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

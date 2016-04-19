@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.casimirlab.simpleDeadlines.ui.DayCounterView
+        android:id="@+id/day_counter"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/day_counter"
+        android:hint="@string/hint_label"
+        android:inputType="textCapSentences"
+        android:shadowColor="#DEDEDE"
+        android:singleLine="true"
+        android:textColor="#DEDEDE"
+        android:textColorHighlight="#DEDEDE"
+        android:textColorHint="#DEDEDE"
+        android:textColorLink="#DEDEDE" />
+
+    <AutoCompleteTextView
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_toRightOf="@id/day_counter"
+        android:completionThreshold="1"
+        android:hint="@string/hint_group"
+        android:inputType="textCapSentences"
+        android:shadowColor="#D7DD8D"
+        android:singleLine="true"
+        android:textColor="#D7DD8D"
+        android:textColorHighlight="#D7DD8D"
+        android:textColorHint="#D7DD8D"
+        android:textColorLink="#D7DD8D" />
+
+    <DatePicker
+        android:id="@+id/due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/day_counter"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:padding="2dp"
+        android:calendarTextColor="#FFFFFF"/>
+</RelativeLayout>

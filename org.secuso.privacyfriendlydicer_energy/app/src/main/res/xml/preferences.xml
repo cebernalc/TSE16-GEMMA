@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_title">
+        <CheckBoxPreference
+            android:id="@+id/enableShaking"
+            android:background="@color/blueCombobox"
+            android:defaultValue="true"
+            android:key="enable_shaking"
+            android:textColor="@color/blueCombobox"
+            android:title="@string/enable_shaking"
+            android:widgetLayout="@layout/custom_checkbox" />
+        <CheckBoxPreference
+            android:id="@+id/enableVibration"
+            android:background="@color/blueCombobox"
+            android:defaultValue="true"
+            android:key="enable_vibration"
+            android:textColor="@color/blueCombobox"
+            android:title="@string/vibration_title"
+            android:widgetLayout="@layout/custom_checkbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

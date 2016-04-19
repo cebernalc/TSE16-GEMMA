@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/release/values-xlarge-port-v4/values-xlarge-port-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 86,
+                    "endOffset": 137
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-xlarge-port/refs.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 314,
+                        "endColumn": 86,
+                        "endOffset": 396
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+** Copyright (c) 2012 Todoroo Inc
+**
+** See the file "LICENSE" for the full license governing this code. 
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+	<RelativeLayout 
+	    android:id="@+id/rowBody"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dip"
+	    android:layout_marginBottom="5dip"
+		android:paddingEnd="@dimen/keyline_first"
+		android:paddingRight="@dimen/keyline_first">
+	
+	    <com.todoroo.astrid.ui.CheckableImageView
+	        android:id="@+id/completeBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:scaleType="center"
+	        android:gravity="center"
+			android:paddingLeft="@dimen/keyline_first"
+			android:paddingStart="@dimen/keyline_first"
+			android:paddingRight="@dimen/keyline_second"
+			android:paddingEnd="@dimen/keyline_second"
+	        android:layout_centerVertical="true" />
+	
+	    <LinearLayout
+	        android:id="@+id/task_row"
+			android:layout_toRightOf="@id/completeBox"
+			android:layout_toEndOf="@id/completeBox"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:orientation="horizontal"
+	        android:gravity="center_vertical">
+	
+	        <!-- task name -->
+	
+	       <LinearLayout
+	           android:layout_width="0dip"
+	           android:layout_height="wrap_content"
+               android:layout_weight="100"
+	           android:orientation="vertical"
+	           android:gravity="center_vertical">
+		        <TextView
+		            android:id="@+id/title"
+		            style="@style/TextAppearance.TAd_ItemTitle"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:gravity="center_vertical"
+		            android:maxLines="1"
+		            android:singleLine="true"
+		            android:ellipsize="end" />
+		
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal">
+			        <TextView
+			            android:id="@+id/dueDate"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:singleLine="true"
+			            android:ellipsize="end"
+						android:textColor="#42C00B"
+			            android:gravity="center_vertical" />
+			        <TextView
+			            android:id="@+id/tagsDisplay"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:singleLine="true"
+			            android:ellipsize="end"
+			            android:gravity="center_vertical" 
+			            style="@style/TextAppearance.TAd_ItemDueDate"/>
+			        
+		        </LinearLayout>
+	        </LinearLayout>
+	        <!-- due date -->
+
+	        <LinearLayout
+	            android:id="@+id/taskActionContainer"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dip"
+	            android:orientation="vertical"
+	            android:gravity="end|center_vertical">
+		        <ImageView
+		            android:id="@+id/taskActionIcon"
+		            android:layout_width="20dip"
+		            android:layout_height="20dip"
+		            android:scaleType="fitCenter"
+		            android:visibility="gone"
+					tools:ignore="ContentDescription" />
+	        </LinearLayout>
+	    </LinearLayout>
+	
+	</RelativeLayout>
+
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="?attr/asListDividerColor" />
+
+</LinearLayout>

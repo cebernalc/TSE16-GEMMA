@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hofentries_array">
+        <item id="1">10</item>
+        <item id="2">20</item>
+        <item id="3">50</item>
+        <item id="4">100</item>
+    </string-array>
+    <string name="app_name">Learn Music Notes</string>
+    <string name="back">Back</string>
+    <string name="bizantine">bizantine (ni pa vu)</string>
+    <string name="dateh">Date</string>
+    <string name="don">do</string>
+    <string name="don_tag">don</string>
+    <string name="endgame">End Game</string>
+    <string name="english">English (C D E)</string>
+    <string name="fa">fa</string>
+    <string name="game">Game</string>
+    <string name="hof">Hall Of Fame</string>
+    <string name="hofentries">Hall of fame Entries</string>
+    <string name="hofentriestext">Max number of top scores stored in hall of fame</string>
+    <string name="indian">indian (sa re ga)</string>
+    <string name="informer">Enable Informer</string>
+    <string name="informertext">Tells you the correct note when you fail in training mode</string>
+    <string name="japanese">japanese (イ ロ ハ)</string>
+    <string name="la">la</string>
+    <string name="menu">Choose a game:</string>
+    <string name="mi">mi</string>
+    <string name="mintest">One Minute Test</string>
+    <string name="no">No</string>
+    <string name="northeneuropean">North European (C D E ... H)</string>
+    <string name="notation">Notation Style</string>
+    <string name="notationtext">The names of music notes in your country</string>
+    <string name="playernameh">Name</string>
+    <string name="pointsh">Points</string>
+    <string name="quit">Quit</string>
+    <string name="re">re</string>
+    <string name="save">Save</string>
+    <string name="seeuropean">S and E Europeans (do re mi)</string>
+    <string name="separator">———</string>
+    <string name="settings">Settings</string>
+    <string name="si">si</string>
+    <string name="sol">sol</string>
+    <string name="training">Training</string>
+    <string name="yes">Yes</string>
+</resources>

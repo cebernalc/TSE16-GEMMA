@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/library/src/main/assets"/><source path="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/library/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/library/src/release/assets"/></dataSet></merger>

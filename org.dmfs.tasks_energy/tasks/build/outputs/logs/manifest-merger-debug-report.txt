@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:2:1-252:12
+	xmlns:tools
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:6:5-33
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:5:5-29
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [org.dmfs.tasks_energy:taskprovider:unspecified] /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+		INJECTED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml
+permission#org.dmfs.permission.READ_TASKS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:12:5-17:58
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:15:9-54
+	android:protectionLevel
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:17:9-44
+	android:description
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:14:9-72
+	android:permissionGroup
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:16:9-73
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:13:9-54
+permission#org.dmfs.permission.WRITE_TASKS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:18:5-23:58
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:21:9-55
+	android:protectionLevel
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:23:9-44
+	android:description
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:20:9-73
+	android:permissionGroup
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:22:9-73
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:19:9-55
+uses-permission#org.dmfs.permission.READ_TASKS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:25:22-67
+uses-permission#org.dmfs.permission.WRITE_TASKS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:26:22-68
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:27:5-71
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:27:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:28:22-69
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:29:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:30:5-66
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:30:22-63
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:31:5-78
+MERGED from [org.dmfs.tasks_energy:taskprovider:unspecified] /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:31:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:32:5-97
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:32:22-78
+application
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:34:5-250:19
+MERGED from [org.dmfs.tasks_energy:taskprovider:unspecified] /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/AndroidManifest.xml:13:5-23:19
+MERGED from [org.dmfs.tasks_energy:library:unspecified] /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/library/unspecified/AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:36:9-41
+	android:icon
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:35:9-45
+	android:theme
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:38:9-40
+	tools:replace
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:34:18-76
+	android:taskAffinity
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:37:9-63
+activity#org.dmfs.tasks.TaskListActivity
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:41:9-50:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:43:13-52
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:42:13-59
+	android:launchMode
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:44:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:48:27-74
+activity#org.dmfs.tasks.ViewTaskActivity
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:53:9-66:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:55:13-54
+	android:parentActivityName
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:56:13-73
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:54:13-59
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:57:13-65:29
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:57:28-48
+action#android.intent.action.VIEW
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:58:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:60:27-73
+data
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:62:17-64:87
+	android:mimeType
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:64:21-84
+	android:host
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:63:21-50
+activity#org.dmfs.tasks.EditTaskActivity
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:69:9-112:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:71:13-61
+	android:parentActivityName
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:72:13-73
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:70:13-59
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:73:13-75:67
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:74:17-63
+	android:value
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:75:17-64
+intent-filter#android.intent.action.EDIT+android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:77:13-85:29
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:77:28-76
+action#android.intent.action.EDIT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:78:25-66
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:88:13-94:29
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:88:28-75
+action#android.intent.action.SEND
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:89:17-69
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:89:25-66
+intent-filter#android.intent.action.INSERT+android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:95:13-101:29
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:95:28-75
+action#android.intent.action.INSERT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:96:17-71
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:96:25-68
+intent-filter#android.intent.action.INSERT_OR_EDIT+android.intent.category.DEFAULT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:102:13-111:29
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:102:28-75
+action#android.intent.action.INSERT_OR_EDIT
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:103:17-79
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:103:25-76
+provider#org.dmfs.provider.tasks.TaskProvider
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:114:9-122:45
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:118:13-51
+	android:multiprocess
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:119:13-41
+	android:exported
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:117:13-36
+	android:authorities
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:116:13-49
+	android:readPermission
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:120:13-68
+	tools:replace
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:122:13-42
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:115:13-64
+	android:writePermission
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:121:13-70
+activity#org.dmfs.tasks.SyncSettingsActivity
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:124:9-131:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:126:13-60
+	android:parentActivityName
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:127:13-73
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:125:13-63
+service#org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:133:9-135:80
+	android:permission
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:135:13-69
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:134:13-82
+receiver#org.dmfs.tasks.homescreen.TaskListWidgetProvider
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:137:9-164:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:139:13-59
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:138:13-76
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:140:13-142:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:141:17-84
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:141:25-81
+intent-filter#org.dmfs.tasks.action.TASKWIDGET_UPDATE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:143:13-145:29
+action#org.dmfs.tasks.action.TASKWIDGET_UPDATE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:144:17-82
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:144:25-79
+intent-filter#android.intent.action.PROVIDER_CHANGED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:146:13-152:29
+action#android.intent.action.PROVIDER_CHANGED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:147:17-81
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:147:25-78
+intent-filter#org.dmfs.android.tasks.TASK_START
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:153:13-159:29
+action#org.dmfs.android.tasks.TASK_START
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:154:17-76
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:154:25-73
+meta-data#android.appwidget.provider
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:161:13-163:60
+	android:resource
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:163:17-57
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:162:17-58
+receiver#org.dmfs.tasks.homescreen.TaskListWidgetProviderLarge
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:165:9-192:20
+	android:label
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:167:13-63
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:166:13-81
+receiver#org.dmfs.provider.tasks.broadcast.StartAlarmBroadcastHandler
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:194:9-201:20
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:194:19-94
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:195:13-197:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:196:17-79
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:196:25-76
+intent-filter#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:198:13-200:29
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:199:17-82
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:199:25-79
+receiver#org.dmfs.provider.tasks.broadcast.DueAlarmBroadcastHandler
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:202:9-209:20
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:202:19-92
+receiver#org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService$TaskListViewsFactory
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:210:9-227:20
+	android:enabled
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:212:13-59
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:211:13-103
+receiver#org.dmfs.provider.tasks.broadcast.AccountsChangeBroadcastReceiver
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:228:9-232:20
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:228:19-99
+intent-filter#android.accounts.LOGIN_ACCOUNTS_CHANGED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:229:13-231:29
+action#android.accounts.LOGIN_ACCOUNTS_CHANGED
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:230:17-82
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:230:25-79
+receiver#org.dmfs.tasks.AlarmBroadcastReceiver
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:234:9-249:20
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:234:19-71
+intent-filter#org.dmfs.android.tasks.TASK_DUE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:235:13-241:29
+action#org.dmfs.android.tasks.TASK_DUE
+ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:236:17-74
+	android:name
+		ADDED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:236:25-71
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:2:1-252:12 reason: com.astuetz.pagerslidingtabstrip has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:2:1-252:12 reason: com.astuetz.pagerslidingtabstrip has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/AndroidManifest.xml:2:1-252:12 reason: com.astuetz.pagerslidingtabstrip requested WRITE_EXTERNAL_STORAGE

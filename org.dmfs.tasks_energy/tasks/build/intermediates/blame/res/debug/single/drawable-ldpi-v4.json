@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_status_in_process.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_status_in_process.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_notification_completed.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_notification_completed.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_status_cancelled.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_status_cancelled.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_status_completed.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_status_completed.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_status_needs_action.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_status_needs_action.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_classification_public.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_classification_public.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_classification_private.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_classification_private.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_classification_confidential.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_classification_confidential.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-ldpi/ic_launcher.png"
+    }
+]

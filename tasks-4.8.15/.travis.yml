@@ -1,0 +1,31 @@
+language: android
+sudo: false
+jdk: oraclejdk7
+env:
+  matrix:
+    - ANDROID_SDKS=android-23,sysimg-19 ANDROID_TARGET=android-19 ANDROID_ABI=armeabi-v7a
+android:
+  components:
+    - tools # https://github.com/travis-ci/travis-ci/issues/5049
+    - android-23
+    - platform-tools-23.1
+    - build-tools-23.0.2
+    - extra-android-m2repository
+    - extra-google-m2repository
+  licenses:
+    - 'android-sdk-license-.+'
+
+before_install:
+  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - ./.wait_for_emulator.sh
+  - adb shell input keyevent 82 &
+
+script:
+  - ./gradlew :lintGoogleplayDebug
+  - ./gradlew :createGoogleplayDebugAndroidTestCoverageReport
+
+after_success:
+  - mv build/reports/coverage/googleplay/debug/report.xml build/reports/coverage/googleplay/debug/coverage.xml
+  - bash <(curl -s https://codecov.io/bash)
+

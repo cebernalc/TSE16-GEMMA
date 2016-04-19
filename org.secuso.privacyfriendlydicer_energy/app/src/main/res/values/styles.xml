@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    </style>
+-->
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat">-->
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+        <item name="android:strokeColor">@color/darkblue</item>
+
+        <item name="android:background">@color/darkblue</item>
+        <item name="android:windowBackground">@color/darkblue</item>
+
+        <item name="android:colorBackground">@color/darkblue</item>
+        <item name="android:textColor">@color/darkblue</item>
+        &lt;!&ndash;<item name="android:buttonStyle">@style/MyButtonStyle</item>&ndash;&gt;
+
+        <item name="android:colorPrimaryDark">@color/darkblue</item>
+        <item name="android:colorPrimary">@color/darkblue</item>
+        <item name="android:colorAccent">@color/darkblue</item>
+        <item name="android:editTextColor">@color/darkblue</item>
+        <item name="android:textColorPrimary">@color/darkblue</item>
+        <item name="android:textColorSecondary">@color/darkblue</item>
+        <item name="android:textColorTertiary">@color/darkblue</item>
+        <item name="android:textColorPrimaryInverse">@color/darkblue</item>
+        <item name="android:textColorSecondaryInverse">@color/darkblue</item>
+        <item name="android:textColorTertiaryInverse">@color/darkblue</item>
+
+    </style>
+
+    <style name="myActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/darkblue</item>
+        <item name="android:titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:colorPrimary">@color/darkblue</item>
+        <item name="android:textColorSecondary">@color/darkblue</item>
+    </style>
+
+    <style name="TitleBarTextColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/darkblue</item>
+    </style>
+
+    <style name="MyButtonStyle" parent="@style/Widget.AppCompat.Button">
+        &lt;!&ndash;<item name="android:colorButtonNormal">@color/darkblue</item>&ndash;&gt;
+        <item name="android:textColor">@color/darkblue</item>
+        &lt;!&ndash;<item name="android:background">@color/darkblue</item>&ndash;&gt;
+        <item name="android:textColorSecondary">@color/darkblue</item>
+    </style>-->
+
+    <!--<style name="btnStyleSandrift" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/darkblue</item>
+        <item name="android:background">@color/darkblue</item>
+        <item name="android:textColorSecondary">@color/darkblue</item>
+    </style>-->
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--<item name="android:background">@color/black</item>-->
+        <item name="android:textColor">@color/textGreen</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+    </style>
+
+    <style name="myActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/black</item>
+        <!--<item name="android:titleTextStyle">@style/TitleBarTextColor</item>-->
+        <!--<item name="android:colorPrimary">@color/darkblue</item>-->
+        <!--<item name="android:textColorSecondary">@color/darkblue</item>-->
+    </style>
+
+    <style name="CustomThemePreferences" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/blueCombobox</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/grayTitle</item>
+
+        <!--<item name="android:checkBoxPreferenceStyle">@style/blueCombobox</item>-->
+        <!--<item name="android:checkboxStyle">@style/blueCombobox</item>-->
+        <item name="colorAccent">@color/textGreen</item>
+        <item name="android:colorActivatedHighlight">@color/blueCombobox</item>
+    </style>
+
+    <style name="blueCombobox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:colorControlNormal">@color/blueCombobox</item>
+        <item name="android:colorControlHighlight">@color/textGreen</item>
+    </style>
+
+    <!--<style name="CustomCheckBox" parent="@style/Widget.ApCompat.CheckBox">
+        <item name="android:background">@android:drawable/btn_check_label_background</item>
+        <item name="android:button">@android:drawable/btn_check</item>
+    </style>-->
+    <!--<style name="AppTheme" parent="@style/Theme.AppCompat">
+
+    </style>-->
+
+</resources>

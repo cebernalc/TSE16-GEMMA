@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="CustomThemePreferences" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/blueCombobox</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/grayTitle</item>
+        <item name="android:textColorTertiary">@color/blueCombobox</item>
+
+        <item name="android:checkBoxPreferenceStyle">@style/blueCombobox</item>
+        <!--<item name="android:checkboxStyle">@style/blueCombobox</item>-->
+        <item name="colorAccent">@color/textGreen</item>
+        <item name="android:colorControlNormal">
+            @color/blueCombobox
+        </item>
+
+        <item name="android:colorControlHighlight">
+            @color/textGreen
+        </item>
+    </style>
+</resources>

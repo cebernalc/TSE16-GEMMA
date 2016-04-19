@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 24.4.1">
+
+    <issue
+        id="ExtraTranslation"
+        severity="Fatal"
+        message="&quot;`activity_task_details_button_edit`&quot; is translated here but not found in default locale"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Extra translation"
+        explanation="If a string appears in a specific language translation file, but there is no corresponding string in the default locale, then this string is probably unused. (It&apos;s technically possible that your application is only intended to run in a specific locale, but it&apos;s still a good idea to provide a fallback.).
+
+Note that these strings can lead to crashes if the string is looked up on any locale not providing a translation, so it&apos;s important to clean them up."
+        errorLine1="    &lt;string name=&quot;activity_task_details_button_edit&quot;>Изменить&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-ru/strings.xml"
+            line="45"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="ExtraTranslation"
+        severity="Fatal"
+        message="&quot;`activity_task_details_button_delete`&quot; is translated here but not found in default locale"
+        category="Correctness:Messages"
+        priority="6"
+        summary="Extra translation"
+        explanation="If a string appears in a specific language translation file, but there is no corresponding string in the default locale, then this string is probably unused. (It&apos;s technically possible that your application is only intended to run in a specific locale, but it&apos;s still a good idea to provide a fallback.).
+
+Note that these strings can lead to crashes if the string is looked up on any locale not providing a translation, so it&apos;s important to clean them up."
+        errorLine1="    &lt;string name=&quot;activity_task_details_button_delete&quot;>Удалить&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-ru/strings.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+</issues>

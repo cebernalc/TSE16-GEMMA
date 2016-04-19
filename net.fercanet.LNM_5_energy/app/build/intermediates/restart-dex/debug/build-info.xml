@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xhdpi"
+    format="5"
+    timestamp="1457195349115018000" >
+
+    <task
+        name="javac"
+        duration="249" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="317" />
+    <task
+        name="verifier"
+        duration="28" />
+
+    <artifact
+        location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1457195349115018000" >
+        <artifact
+            location="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

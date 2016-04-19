@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/light_gray.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/light_gray.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/task_list_widget_screenshot.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/task_list_widget_screenshot.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/background_tab.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/library/unspecified/res/drawable/background_tab.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/task_start.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/task_start.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/widget_list_item_bg.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/widget_list_item_bg.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/transparent.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/transparent.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/background_selected.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/background_selected.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/task_due.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/task_due.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/background_pressed.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/background_pressed.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/vertical_shade_r_to_l.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/vertical_shade_r_to_l.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/task_progress_background_shade.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/task_progress_background_shade.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/complete_task_background_overlay.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/complete_task_background_overlay.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/widget_task_add_button_bg.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/widget_task_add_button_bg.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/task_divider.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/task_divider.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/background_activated.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/background_activated.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable/selectable_list_item.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable/selectable_list_item.xml"
+    }
+]

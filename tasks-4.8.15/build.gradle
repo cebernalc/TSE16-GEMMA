@@ -1,0 +1,114 @@
+apply plugin: 'com.android.application'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0-alpha4'
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+android {
+    lintOptions {
+        lintConfig file("lint.xml")
+    }
+
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        versionCode 405
+        versionName "4.8.15"
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+
+    signingConfigs {
+        release
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    buildTypes {
+        debug {
+            testCoverageEnabled true
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    if (project.hasProperty('keyAlias') &&
+            project.hasProperty('storeFile') &&
+            project.hasProperty('storePassword') &&
+            project.hasProperty('keyPassword')) {
+        android.signingConfigs.release.keyAlias = keyAlias
+        android.signingConfigs.release.storeFile = file(storeFile)
+        android.signingConfigs.release.storePassword = storePassword
+        android.signingConfigs.release.keyPassword = keyPassword
+    } else {
+        buildTypes.release.signingConfig = null
+    }
+
+    productFlavors {
+        generic
+        googleplay
+    }
+}
+
+configurations {
+    all*.exclude group: 'com.google.guava', module: 'guava-jdk5'
+    all*.exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+}
+
+dependencies {
+    provided 'com.google.dagger:dagger-compiler:2.1'
+    compile 'com.google.dagger:dagger:2.1'
+
+    compile 'com.nononsenseapps:filepicker:2.5.0'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:support-v13:23.2.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.jakewharton.timber:timber:4.1.1'
+    compile 'com.google.guava:guava:19.0'
+    compile ('com.rubiconproject.oss:jchronic:0.2.6') {
+        transitive = false
+    }
+    compile ('org.scala-saddle:google-rfc-2445:20110304') {
+        transitive = false
+    }
+    compile ('com.wdullaer:materialdatetimepicker:2.1.1') {
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+
+    googleplayCompile 'com.google.android.apps.dashclock:dashclock-api:2.0.0'
+    googleplayCompile 'com.twofortyfouram:android-plugin-api-for-locale:[1.0.1,2.0['
+    googleplayCompile 'com.google.android.gms:play-services-location:8.4.0'
+    googleplayCompile 'com.google.android.gms:play-services-analytics:8.4.0'
+    googleplayCompile 'com.google.apis:google-api-services-tasks:v1-rev41-1.21.0'
+    googleplayCompile 'com.google.api-client:google-api-client-android:1.21.0'
+
+    androidTestCompile ('org.mockito:mockito-core:1.9.5') {
+        transitive = false
+    }
+    androidTestCompile 'com.google.dexmaker:dexmaker:1.1'
+    androidTestCompile 'com.google.dexmaker:dexmaker-mockito:1.1'
+    androidTestCompile ('com.natpryce:make-it-easy:3.1.0') {
+        transitive = false
+    }
+}

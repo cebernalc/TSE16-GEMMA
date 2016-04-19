@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/view_task_fragment_menu.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/view_task_fragment_menu.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/test_display.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/test_display.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/task_list_fragment_menu.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/task_list_fragment_menu.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/edit_task_activity_menu.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/edit_task_activity_menu.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/task_list_activity_menu.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/task_list_activity_menu.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/menu/settings.xml"
+    }
+]

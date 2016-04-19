@@ -1,0 +1,4 @@
+include ':taskprovider'
+include ':library'
+include ':tasks'
+

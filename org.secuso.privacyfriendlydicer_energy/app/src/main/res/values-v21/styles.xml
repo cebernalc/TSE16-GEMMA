@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/darkblue</item>
+        <item name="android:titleTextStyle">@color/darkblue</item>
+        <item name="android:colorPrimary">@color/darkblue</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Simple" parent="Theme.AppCompat">
+    <!--<style name="Theme.Simple" parent="ThemeOverlay.AppCompat.ActionBar">-->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/icons</item>
+        <item name="android:divider">@color/icons</item>
+        <!--<item name="android:divider">@color/divider</item>-->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">#9A7178</item>
+        <item name="android:windowBackground">@color/black</item>
+
+    </style>
+</resources>

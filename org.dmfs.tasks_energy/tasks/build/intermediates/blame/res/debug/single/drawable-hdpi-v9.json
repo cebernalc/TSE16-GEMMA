@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/navigation_accept.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/navigation_accept.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_new.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_new.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_save.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_save.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_remove.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_remove.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_remove_light.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_remove_light.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_edit.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_edit.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/drawable-hdpi-v9/content_discard.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/drawable-hdpi-v9/content_discard.png"
+    }
+]

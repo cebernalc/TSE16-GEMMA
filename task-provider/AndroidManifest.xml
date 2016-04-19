@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.dmfs.provider.tasks"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <application>
+        <provider
+            android:name="org.dmfs.provider.tasks.TaskProvider"
+            android:authorities="org.dmfs.tasks"
+            android:exported="true"
+            android:label="OpenTasks"
+            android:multiprocess="false"
+            android:readPermission="org.dmfs.permission.READ_TASKS"
+            android:writePermission="org.dmfs.permission.WRITE_TASKS" />
+
+        <receiver android:name="org.dmfs.provider.tasks.TaskProviderBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+</manifest>

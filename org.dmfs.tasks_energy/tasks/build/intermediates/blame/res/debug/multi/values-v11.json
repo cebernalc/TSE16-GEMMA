@@ -1,0 +1,247 @@
+[
+    {
+        "outputFile": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 51,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/bools.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 53,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/dimes.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 206,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 602
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 607,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 983
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 988,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1101
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1106,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1239
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1244,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1516
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1521,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1819
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1824,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 1996
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2001,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2201
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2206,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 2332
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2337,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 2486
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 2491,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 2621
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2626,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 2742
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2747,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 2887
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2892,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 3215
+                },
+                "from": {
+                    "file": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/src/main/res/values-v11/styles.xml"
+                }
+            }
+        ]
+    }
+]

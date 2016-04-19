@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "org.dmfs.tasks"
+        minSdkVersion 16
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    compile project(':taskprovider')
+    compile project(':library')
+    compile files('libs/android-retention-magic-1.2.2.jar')
+}

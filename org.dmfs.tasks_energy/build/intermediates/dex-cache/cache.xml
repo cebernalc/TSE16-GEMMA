@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a3c17dbbca4f96b0fa71ecc830a9b8eb199a4d">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/org.dmfs.tasks_energy-taskprovider-unspecified_a2f1379392cbf2394fa34068c20fb4503ecca31c.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3fe75433da602500cc71fcc1c46e5550291dd45d">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/support-v4-13.0.0_fdcbf812031e48c9c9ac35ea8bea04fa45699fca.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/libs/android-retention-magic-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c79c1fc4facd6d1c6adae603d79b850055c5729b">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/android-retention-magic-1.2.2_efc3a6acc003b24e562692a4e9a7e7c0bdb65682.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f4fc83e34615ce96e9aa2d54cbf567122325a0">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/org.dmfs.tasks_energy-library-unspecified_76a93269a71491dc872743b43dd44b23af6e3c53.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/jars/libs/lib-recur-0.9.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7336fa1bb4b98edbd718236a08bf0e1c304aaddc">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/lib-recur-0.9.3_45fd2419a3b5bd7462660ad569220144bd98673f.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/exploded-aar/org.dmfs.tasks_energy/taskprovider/unspecified/jars/libs/rfc5545-datetime-0.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0b18b2f0fe7628241e485aedd1c4ff52710a977f">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/org.dmfs.tasks_energy/tasks/build/intermediates/pre-dexed/debug/rfc5545-datetime-0.2.4_f980c428715195fd5889ada531f14620a5e82bc5.jar" />
+    </item>
+
+</items>

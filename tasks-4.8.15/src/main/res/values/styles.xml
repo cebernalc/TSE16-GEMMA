@@ -1,0 +1,140 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ========================================================== General  -->
+
+    <style name="SpinnerNoPadding" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="TextBoxText">
+        <item name="android:textColor">?attr/asTextColor</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+    <style name="WidgetConfigRow">
+        <item name="android:paddingLeft">@dimen/keyline_first</item>
+        <item name="android:paddingStart">@dimen/keyline_first</item>
+        <item name="android:paddingRight">@dimen/keyline_first</item>
+        <item name="android:paddingEnd">@dimen/keyline_first</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="WidgetConfigRow.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:drawableEnd">?android:attr/listChoiceIndicatorMultiple</item>
+    </style>
+
+    <!--================================================== General == -->
+
+    <style name="TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">?attr/asTextColor</item>    
+    </style>
+
+    <!--=============================================== TaskListActivity == -->
+
+    <style name="ListView">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:smoothScrollbar">true</item>
+    </style>
+
+    <style name="TaskListView" parent="ListView" />
+
+    <style name="double_pane_divider">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">1px</item>
+        <item name="android:background">?attr/asListDividerColor</item>
+        <item name="android:minWidth">1px</item>
+    </style>
+
+    <style name="task_edit_row_divider">
+        <item name="android:layout_marginLeft">@dimen/keyline_second_absolute</item>
+        <item name="android:layout_marginStart">@dimen/keyline_second_absolute</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">?attr/task_edit_divider</item>
+        <item name="android:layout_gravity">end|bottom</item>
+    </style>
+
+    <!-- ==================================================== TaskAdapter == -->
+
+    <style name="task_list_container"/>
+
+    <style name="TextAppearance.TAd_ItemTitle">
+        <item name="android:textColorLink">#ff88aaff</item>
+    </style>
+    
+    <style name="TextAppearance.TAd_ItemTitle_Completed" parent="TextAppearance.TAd_ItemTitle">
+        <item name="android:textColor">#ff555555</item>
+    </style>
+    
+    <style name="TextAppearance.TAd_ItemDetails">
+        <item name="android:textColor">?attr/asDetailsColor</item>
+        <item name="android:textColorLink">#ff88aaff</item>
+    </style>
+    
+    <style name="TextAppearance.TAd_ItemDueDate" parent="TextAppearance.TAd_ItemDetails">
+        <item name="android:textColor">?attr/asDueDateColor</item>
+    </style>
+    
+    <style name="TextAppearance.TAd_ItemDueDate_Overdue" parent="TextAppearance.TAd_ItemDueDate">
+        <item name="android:textColor">@color/overdue</item>
+    </style>
+    
+    <style name="TextAppearance.TAd_ItemDueDate_Completed" parent="TextAppearance.TAd_ItemDueDate">
+        <item name="android:textColor">?attr/asDueDateCompletedColor</item>
+    </style>
+
+    <!-- ========================================================= Widget == -->
+
+    <style name="TextAppearance.Widget">                                                                                                                                                                                      
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/widget_text_color_light</item>                                                                                                                                                   
+    </style>
+
+    <style name="TextAppearance.WidgetDueDate">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/widget_text_color_light</item>
+    </style>
+
+    <style name="FilePickerTheme" parent="NNF_BaseTheme.Light">
+         <item name="nnf_toolbarTheme">@style/ActionBarThemeOverlay</item>
+    </style>
+
+    <!-- ========================================================= Premium == -->
+
+    <style name="TextAppearance.Medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="priority_button_base">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:width">0dp</item>
+    </style>
+
+    <style name="priority_button" parent="priority_button_base">
+        <!-- hide janky selected item background on pre-lollipop devices -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

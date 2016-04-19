@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_group">Sans groupe</string>
+
+    <string name="dashclock_description">Affiche vos deadlines les plus urgentes.</string>
+    <string name="dashclock_title">%d urgent</string>
+
+    <string name="empty_list">Pour commencer appuyer sur le bouton \"+\"</string>
+    <string name="empty_label">Au moins un label est nécessaire</string>
+    <string name="hint_label">Libellé</string>
+    <string name="hint_group">Groupe</string>
+    <string name="msg_added">\"%s\" ajouté</string>
+    <string name="msg_confirm_recover">Récupérer ce fichier ?</string>
+    <string name="msg_recover">%d éléments ajoutés</string>
+    <string name="pref_title_recover_do">Restaurer les deadlines</string>
+</resources>

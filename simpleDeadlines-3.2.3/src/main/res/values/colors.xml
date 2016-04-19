@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="primary">#9A7178</color>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="black">#000000</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="holo_bg">#F0F0F0</color>
+
+    <color name="archived">#888888</color>
+    <!--<color name="today">#CC0000</color>-->
+    <color name="today">#A1D8B3</color>
+    <color name="urgent">#FF8800</color>
+    <color name="worrying">#608F6A</color>
+    <color name="nice">#D0D5B6</color>
+    <color name="nevermind">#8A97D5</color>
+</resources>

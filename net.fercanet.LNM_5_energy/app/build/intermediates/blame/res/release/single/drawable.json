@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/custom_button_green.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/custom_button_green.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/custom_button_red.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/custom_button_red.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu_omt.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu_omt.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/dialog.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/dialog.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/custom_button.xml",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/custom_button.xml"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu_settings.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu_settings.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu_quit.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu_quit.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu_training.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu_training.png"
+    },
+    {
+        "merged": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/res/merged/release/drawable/menu_hof.png",
+        "source": "/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/src/main/res/drawable/menu_hof.png"
+    }
+]

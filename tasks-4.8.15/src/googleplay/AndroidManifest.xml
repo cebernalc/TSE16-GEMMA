@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.tasks">
+
+    <!-- **************** -->
+    <!-- in-app donations -->
+    <!-- **************** -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- ************************ -->
+    <!-- location based reminders -->
+    <!-- ************************ -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <!-- **************** -->
+    <!-- google task sync -->
+    <!-- **************** -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI49v5bBusi_bq1bgLBB1LIsepNV0eBrFkQrBZkw" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBq82FiK4U8Ke2TV_F8UjDZwgtSy8K9cyQ"/>
+
+        <service android:name=".location.GeofenceTransitionsIntentService"/>
+
+        <activity
+            android:name="com.todoroo.astrid.gtasks.auth.GtasksLoginActivity"
+            android:theme="@style/DialogBase" />
+
+        <activity
+            android:name="com.todoroo.astrid.gtasks.GtasksPreferences"
+            android:label="@string/synchronization"
+            android:theme="@style/Tasks" />
+
+        <activity
+            android:name=".activities.ClearGtaskDataActivity"
+            android:theme="@style/DialogBase" />
+
+        <service
+            android:name=".scheduling.GtasksBackgroundService"
+            android:exported="false" />
+
+        <!-- Google Analytics -->
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <!-- Tasker/Locale -->
+
+        <activity
+            android:name=".locale.ui.activity.TaskerSettingsActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Tasks"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <activity-alias
+            android:name="com.twofortyfouram.locale.example.setting.toast.ui.activity.PluginActivity"
+            android:exported="true"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:targetActivity=".locale.ui.activity.TaskerSettingsActivity"
+            tools:ignore="ExportedActivity">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity-alias>
+
+        <receiver
+            android:name=".locale.receiver.FireReceiver"
+            android:exported="true"
+            android:enabled="true"
+            android:process=":background"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- DashClock extension -->
+
+        <service android:name=".dashclock.DashClockExtension"
+            android:icon="@drawable/ic_check_white_24dp"
+            android:label="@string/app_name"
+            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
+            <intent-filter>
+                <action android:name="com.google.android.apps.dashclock.Extension" />
+            </intent-filter>
+            <meta-data android:name="protocolVersion" android:value="2" />
+            <meta-data android:name="worldReadable" android:value="true" />
+            <meta-data android:name="description"
+                android:value="Display a count of active tasks" />
+            <meta-data android:name="settingsActivity"
+                android:value=".dashclock.DashClockSettings" />
+        </service>
+
+        <activity android:name=".dashclock.DashClockSettings"
+            android:label="@string/app_name"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

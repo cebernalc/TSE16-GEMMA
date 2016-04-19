@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="39fe3e851b43de4b8cc5ebeb21dbb941923eea93">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/pre-dexed/debug/instant-run_e32c3a80ea20bb59825ef19298b6708f0d35658e.jar" />
+    </item>
+    <item
+        jar="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="168ad31b7db7ec2be801fe1366abffc5a2939bb9">
+        <dex dex="/Users/charlyb07/Documents/WM/PhD/SEMERU/TSE/gemma/net.fercanet.LNM_5_energy/app/build/intermediates/pre-dexed/debug/classes_4fdca82b7a811c3e73144df7fb7e00f6c4dff9b3.jar" />
+    </item>
+
+</items>
