@@ -1,2 +1,4 @@
-# TSE16-GEMMA
-Visual Aesthetics Matters: Multi Objective Optimization of Energy Consumption of GUIs in Android Apps
+# Visual Aesthetics Matters: Multi Objective Optimization of Energy Consumption of GUIs in Android Apps 
+Visual Aesthetics Matters: Multi Objective Optimization of Energy Consumption of GUIs in Android Apps - TSE16
+
+This repository contains the five applications we evaluated in terms of tangible impact on the energy consumption using GEMMA. In the <a href="https://github.com/cebernalc/TSE16-GEMMA/tree/master/apks">apks</a> folder you will find unmodified versions of the five applications whereas <a href="https://github.com/cebernalc/TSE16-GEMMA/tree/master/apks_modified">apks_modified</a> contains the applications that consume the lowest amount of energy based on GEMMA. In addition we provide the <a href="https://github.com/cebernalc/TSE16-GEMMA/tree/master/data">energy measurements</a> for all the five applications collected with the Monsoon Power Monitor during the thirty executions.
